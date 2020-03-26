@@ -1,0 +1,32 @@
+let name = "unique.ideas";
+let courses = ["html", "css", "js"];
+  var numOfCourses = courses.length;
+    let numDisplay = "";
+ for(let i = 0; i <= 200; i++){
+     if(numOfCourses % 2 == 1){
+         if(i % 2 == 1){
+             if(i == 200 -1 ){
+                 break;
+             }
+             if(i == 0 ){
+                     continue;
+                 }
+                 numDisplay +=  i + 2 + "";
+                 
+             }
+         }
+         else {
+             if(i % 2 == 0){
+                 if(i == 200){
+                     break;
+                     
+                 }
+                 numDisplay + i + 2 + "";
+                 
+             
+         }
+     }
+     console.log(name);
+     console.log(courses.toString());
+     console.log(numDisplay)
+ }
